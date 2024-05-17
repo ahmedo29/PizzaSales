@@ -1,7 +1,8 @@
 # PizzaSales
-##Page 1: Business Overview
+
+### Page 1: Business Overview
 ![Dashboard home](assets/images/Dashboard.png)
-## Page 2: Sales Analysis
+### Page 2: Sales Analysis
 ![Dashboard home](assets/images/dashboard_sales.png)
 
 
