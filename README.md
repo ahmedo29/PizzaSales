@@ -21,7 +21,7 @@
   - [DAX Measures](#dax-measures)
 - [Analysis](#analysis)
   - [Findings](#findings)
-- [Conclusion](#conclusion) 
+  - [Discovery](#discovery)
 
 # Objective
 
@@ -278,3 +278,29 @@ There were several key questions we needed to answer for the pizza shop manager:
 
 ### 9. What is the percentage of sales per pizza size?
 ![% per size](assets/images/pct_per_size.png)
+
+## Discovery
+
+* What did we learn?
+
+We disovered that
+
+1. Fridays are the busiest days as they have the most total orders (3,538), whereas, Sunday is the least busiest day as it has the least amount of total orders (2,624)
+2. Lunch times (12:00 - 13:00) and dinner times (17:00 - 19:00) are the busiest times of the day, as they all had a total orders of over 2000
+3. The classic category is the most popular with 14,888 pizzas sold in this category, whereas, chicken is the least popular with 11,050 of pizzas in this category sold
+4. What the top 5 pizzas in terms of revenue are
+5. What the bottom 5 pizzas in terms of revenue are, which can be useful to make data driven decisions
+6. What the top 5 pizzas by total orders are
+7. What the bottom 5 pizzas by total orders are, which can be useful to make data driven decisions
+8. The percentage share per category of pizzas sold is quite balanced, as classic holds the highest percentage at 26.91%, and veggie holds the least percentage at 23.68%
+9. Large and Medium size pizzas are the most popular, whereas, XXL and XL are the least popular
+
+## Recommendations 
+
+What do you recommend based on the insights gathered?
+
+1. As we know Sundays are the least busiest days, we could offer discounts for pizzas on Sundays to increase the sales, which should then increase the revenue.
+2. Lunch and Dinner times are the busiest times of the day, so we could offer discounts at other times of the day to increase sales during off peak hours
+3. The chicken category has the least amount of pizzas sold, so I recommend we increase advertising and highlight the least popular pizza categories to increase visibility, which should then increase the total sum of orders and revenue
+4. We know what the bottom 5 pizzas are in terms of revenue and total orders, so we can offer discounts on these pizzas, which should increase the demand for them. Furthermore, we can also gather customer feedback on these pizzas, to get their views on the pizza, what we could improve, and whether they would order them
+5. We know that the XXL and XL Pizzas are the least popular, so we can offer discounts on the these sizes in hopes that the demand for them increases
