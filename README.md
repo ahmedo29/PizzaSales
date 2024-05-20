@@ -198,13 +198,15 @@ Total Pizzas Sold = SUM(pizza_sales[quantity])
 
 ### 4. AVG Order Value ($)
 ```sql
-AVG Order Value ($) = ROUND(DIVIDE(SUM(pizza_sales[total_price]), DISTINCTCOUNT(pizza_sales[order_id])), 2)
+AVG Order Value ($) = ROUND(DIVIDE(SUM(pizza_sales[total_price]),
+			DISTINCTCOUNT(pizza_sales[order_id])), 2)
 
 ```
 
 ### 5. AVG Pizzas Sold
 ```sql
-AVG Pizzas Sold Per Order = ROUND(DIVIDE(SUM(pizza_sales[quantity]), DISTINCTCOUNT(pizza_sales[order_id])), 2)
+AVG Pizzas Sold Per Order = ROUND(DIVIDE(SUM(pizza_sales[quantity]),
+			    DISTINCTCOUNT(pizza_sales[order_id])), 2)
 
 ```
 
