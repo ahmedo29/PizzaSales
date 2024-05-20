@@ -10,11 +10,9 @@
 - [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
-  - [Mockup](#mockup)
   - [Tools](#tools)
   - [Development](#development)
   - [Pseudocode](#pseudocode)
-  - [Data Exploration](#data-exploration)
   - [Data Cleaning](#data-cleaning)
 - [Testing](#testing)
   - [Data Quality Checks](#data-quality-checks)
@@ -100,7 +98,22 @@ To understand what the dashboard should contain, we need to figure out what ques
 | Power BI | Visualising the data via interactive dashboards |
 | GitHub | Hosting the project documentation and version control |
 
-##Data Cleaning
+# Development
+## Pseudocode
+What is the approach you will use to create a solution from start to finish?
+
+1. Get the data
+2. Explore the data using Microsoft Excel
+3. Load the data into SQL
+4. Clean the data with SQL
+5. Test the data with SQL
+6. Visualise the data in Power Bi
+7. Generate the findings based on the insights
+8. Write the documentation
+9. Publish the data to GitHub
+
+
+## Data Cleaning
   
   * What should the clean data look like?
 
