@@ -58,14 +58,15 @@ As the manager of this pizza store, I want to identify key performance indicator
 # Data Source
 
 What data is needed to achieve the objectives?
-* We need data on the pizza shop and their sales, such as
-	* Pizza name
- 	* Order date
-  	* Quantity sold
-  	* Total orders
-  	* Total sales
-  	* Pizza category
-  	* Order time
+
+* We need data on the pizza shop and their sales, such as:
+** Pizza name
+** Order date
+** Quantity sold
+** Total orders
+** Total sales
+** Pizza category
+** Order time
 
 # Stages
 
