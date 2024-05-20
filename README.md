@@ -228,3 +228,25 @@ DIVIDE(
 ## Findings
 
 * What were our findings?
+There were several key questions we needed to answer for the pizza shop manager:
+
+1. What day of the week has the highest number of orders?
+2. What hour of the day has the highest number of orders?
+3. Which category of pizza is the most popular?
+4. What are the top 5 pizzas by revenue?
+5. What are the bottom 5 pizzas by revenue?
+6. What are the top 5 pizzas by total orders?
+7. What are the bottom 5 pizzas by total orders?
+8. What is the percentage of sales per pizza category?
+9. What is the percentage of sales per pizza size?
+
+### 1. What day of the week has the highest number of orders?
+| Rank | Order Day            | Total Orders    |
+|------|----------------------|-----------------|
+| 1    | Friday		      | 3538            |
+| 2    | Thursday             | 3239            |
+| 3    | Saturday             | 3158            |
+| 4    | Wednesday            | 3024            |
+| 5    | Tuesdayccc           | 2973            |
+| 6    | Monday               | 2794            |
+| 7    | Sunday               | 2624            |
