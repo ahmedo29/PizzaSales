@@ -241,48 +241,28 @@ There were several key questions we needed to answer for the pizza shop manager:
 9. What is the percentage of sales per pizza size?
 
 ### 1. What day of the week has the highest number of orders?
-| Rank | Order Day            | Total Orders    |
-|------|----------------------|-----------------|
-| 1    | Friday		      | 3,538           |
-| 2    | Thursday             | 3,239           |
-| 3    | Saturday             | 3,158           |
-| 4    | Wednesday            | 3,024           |
-| 5    | Tuesdayccc           | 2,973           |
-| 6    | Monday               | 2,794           |
-| 7    | Sunday               | 2,624           |
+![days_of_week](assets/images/orders_per_day.png)
 
 ### 2. What hour of the day has the highest number of orders?
-| Rank | Order Hour  | Total Orders |
-|------|-------------|--------------|
-| 1    | 9	     | 1            |
-| 2    | 10          | 8            |
-| 3    | 11          | 1,231        |
-| 4    | 12          | 2,520        |
-| 5    | 13          | 2,455        |
-| 6    | 14          | 1,472        |
-| 7    | 15          | 1,468        |
-| 8    | 16	     | 1,920        |
-| 9    | 17          | 2,336        |
-| 10   | 18          | 2,399        |
-| 11   | 19          | 2,009        |
-| 12   | 20          | 1,642        |
-| 13   | 21          | 1,198        |
-| 14   | 22          | 663          |
-| 15   | 23          | 28           |
+![orders_per_hour](assets/images/orders_per_hour.png)
 
 ### 3. Which category of pizza is the most popular?
-| Rank | Pizza Category | Total Sold   |
-|------|----------------|--------------|
-| 1    | Classic	| 14,888       |
-| 2    | Supreme        | 11,987       |
-| 3    | Veggie     	| 11,649       |
-| 4    | Chicken      	| 11,050       |
+![pizza_category](assets/images/total_sales_per_category.png)
 
 ### 4. What are the top 5 pizzas by revenue?
-| Rank | Pizza Name | Total Revenue   |
-|------|----------------|--------------|
-| 1    | The Thai Chicken Pizza	| 14,888       |
-| 2    | The Barbecue Chicken Pizza       | 11,987       |
-| 3    | The California Chicken Pizza     	| 11,649       |
-| 4    | The Classic Deluxe Pizza      	| 11,050       |
-| 5    | The Spicy Italian Pizza      	| 11,050       |
+![pizza_category](assets/images/top5byrevenue.png)
+
+### 5. What are the bottom 5 pizzas by revenue?
+![pizza_revenue](assets/images/bottom5byrevenue.png)
+
+### 6. What are the top 5 pizzas by total orders?
+![top 5 by total orders](assets/images/top5pizzas.png)
+
+### 7. What are the bottom 5 pizzas by total orders?
+![bottom 5 by total orders](assets/images/bottom5pizzas.png)
+
+### 8. What is the percentage of sales per pizza category?
+![% per category](assets/images/pct_per_category.png)
+
+### 9. What is the percentage of sales per pizza size?
+![% per size](assets/images/pct_per_size.png)
