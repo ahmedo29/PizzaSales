@@ -136,3 +136,33 @@ FROM pizza_sales;
 ```
 ### Output
 ![row_count_check](assets/images/row_count.png)
+
+## Column count check
+### SQL Query
+```sql
+/*
+
+-- 2. Column Count Check - Expected 12 (Passed)
+SELECT 
+	COUNT(*) AS column_count
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'pizza_sales';
+
+```
+### Output
+![row_count_check](assets/images/column_count.png)
+
+## Data type check
+### SQL Query
+```sql
+/*
+
+SELECT 
+	COLUMN_NAME,
+	DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'pizza_sales';
+
+```
+### Output
+![row_count_check](assets/images/data_type_check.png)
