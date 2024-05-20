@@ -166,3 +166,64 @@ WHERE TABLE_NAME = 'pizza_sales';
 ```
 ### Output
 ![row_count_check](assets/images/data_type_check.png)
+
+# Visualisation
+
+## Results
+The dashboard looks as below:
+### Page 1: Business Overview
+![Dashboard home](assets/images/Dashboard.png)
+### Page 2: Sales Analysis
+![Dashboard home](assets/images/dashboard_sales.png)
+
+# Dax Measures
+
+### 1. Total Revnue ($)
+```sql
+
+
+```
+
+### 2. Total Orders
+```sql
+Total Revenue ($) = ROUND(SUM(pizza_sales[total_price]), 2)
+
+```
+
+### 3. Total Pizzas Sold
+```sql
+Total Pizzas Sold = SUM(pizza_sales[quantity])
+
+```
+
+### 4. AVG Order Value ($)
+```sql
+AVG Order Value ($) = ROUND(DIVIDE(SUM(pizza_sales[total_price]), DISTINCTCOUNT(pizza_sales[order_id])), 2)
+
+```
+
+### 5. AVG Pizzas Sold
+```sql
+AVG Pizzas Sold Per Order = ROUND(DIVIDE(SUM(pizza_sales[quantity]), DISTINCTCOUNT(pizza_sales[order_id])), 2)
+
+```
+
+### 6. Sales PCT Per Category
+```sql
+SalesPercentagePerCategory = 
+DIVIDE(
+    SUM(pizza_sales[total_price]),
+    CALCULATE(SUM(pizza_sales[total_price]), ALL(pizza_sales[Pizza category]))
+) * 100
+
+```
+
+### 6. Sales PCT Per Size
+```sql
+SalesPercentagePerSize = 
+DIVIDE(
+    SUM(pizza_sales[total_price]),
+    CALCULATE(SUM(pizza_sales[total_price]), ALL(pizza_sales[Pizza size]))
+) * 100
+
+```
