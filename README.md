@@ -23,8 +23,6 @@
   - [DAX Measures](#dax-measures)
 - [Analysis](#analysis)
   - [Findings](#findings)
-  - [Validation](#validation)
-  - [Discovery](#discovery)
 - [Conclusion](#conclusion) 
 
 # Objective
