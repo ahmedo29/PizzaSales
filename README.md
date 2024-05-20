@@ -29,29 +29,29 @@
 
 # Objective
 
-•	Key objectives for this project
+* Key objectives for this project
 The manager at this pizza shop wants to gain insights into how the business is performing, and he wants this information to be provided to him via an interactive dashboard. The dashboard should contain several key insights for the business, which will help him and his staff understand the data behind the business.
 
 Ideal dashboard
 The ideal dashboard should provide the relevant insights into the business, which includes key performance indicators such as;
 
-  •	The total revenue
-  •	Average Order value
-  •	Total pizzas sold
-  •	Total orders
-  •	Average pizzas per order
+  * The total revenue
+  * Average Order value
+  * Total pizzas sold
+  * Total orders
+  * Average pizzas per order
   
 These KPIs will provide insightful information which the manager can use, furthermore, the dashboard should contain trends and insightful information, such as:
 
-  •	Total orders per day of the week
-  •	Total orders for hours of the day
-  •	Percentage of sales per pizza category
-  •	Percentage of sales per pizza size
-  •	Total sales per pizza
-  •	The top 5 best sellers by revenue
-  •	The bottom 5 sellers by total orders
-  •	The bottom 5 sellers by revenue
-  •	The bottom 5 sellers by total orders
+  * Total orders per day of the week
+  * Total orders for hours of the day
+  * Percentage of sales per pizza category
+  * Percentage of sales per pizza size
+  * Total sales per pizza
+  * The top 5 best sellers by revenue
+  * The bottom 5 sellers by total orders
+  * The bottom 5 sellers by revenue
+  * The bottom 5 sellers by total orders
   
 The business can use this information to then make data driven decisions, such as, if it is worth continuing selling the bottom 5 popular pizzas.
 
@@ -62,36 +62,36 @@ As the manager of this pizza store, I want to identify key performance indicator
 # Data Source
 
 What data is needed to achieve the objectives?
-  •	We need data on the pizza shop and their sales, such as
-    o	Pizza name
-    o	Order date
-    o	Quantity sold
-    o	Total orders
-    o	Total sales
-    o	Pizza category
-    o	Order time
+* We need data on the pizza shop and their sales, such as
+	* Pizza name
+ 	* Order date
+  	* Quantity sold
+  	* Total orders
+  	* Total sales
+  	* Pizza category
+  	* Order time
 
 # Stages
 
 The stages for this project will be;
-  •	Design
-  •	Development
-  •	Testing
-  •	Analysis
+  * Design
+  * Development
+  * Testing
+  * Analysis
 
 # Stages
 
 What should the dashboard contain?
 To understand what the dashboard should contain, we need to figure out what questions we need the dashboard to answer, which will help provide the data to make data driven decisions. Some of the questions are as below:
-  •	What day of the week has the highest number of orders?
-  •	What hour of the day has the highest number of orders?
-  •	Which category of pizza is the most popular?
-  •	What are the top 5 pizzas by revenue?
-  •	What are the bottom 5 pizzas by revenue?
-  •	What are the top 5 pizzas by total orders?
-  •	What are the bottom 5 pizzas by total orders?
-  •	What is the percentage of sales per pizza category?
-  •	What is the percentage of sales per pizza size?
+* What day of the week has the highest number of orders?
+* What hour of the day has the highest number of orders?
+* Which category of pizza is the most popular?
+* What are the top 5 pizzas by revenue?
+* What are the bottom 5 pizzas by revenue?
+* What are the top 5 pizzas by total orders?
+* What are the bottom 5 pizzas by total orders?
+* What is the percentage of sales per pizza category?
+* What is the percentage of sales per pizza size?
 
 ## Tools
 
@@ -108,10 +108,10 @@ To understand what the dashboard should contain, we need to figure out what ques
 
 The clean data should be structured and ready for analysis, and it should meet the following criteria and constraints:
  
-  1.	Only relevant columns should be retained
-  2.	All data types should be appropriate for the contents of each column
-  3.	No NULL values in any of the columns
-  4.	Correct data types for each column
+1. Only relevant columns should be retained
+2. All data types should be appropriate for the contents of each column
+3. No NULL values in any of the columns
+4. Correct data types for each column
 
 Below is a table outlining the constraints on our cleaned data:
 
